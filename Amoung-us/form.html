@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Crewmate Registration</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="page-container">
+
+        <nav>
+            <a href="root.html" class="nav-link">Home[Cafetaria]</a>
+            <a href="username.html" class="nav-link">Logbook</a>
+            <a href="form.html" class="nav-link-active">Register</a>
+            <a href="extra.html" class="nav-link">Storage</a>
+        </nav>
+
+        <main>
+            <header>
+                <h1>New Crewmate Registration</h1>
+                <p>Crewmate ID:23MEI10017</p>
+            </header>
+
+            <form action="#" method="POST">
+                
+                <input type="hidden" name="identity" value="Your Full Name">
+
+                <fieldset style="background-color: #f8f8f8; ">
+                    <legend style="color: #1ABC9C; font-weight: bold; padding: 0 5px;">Crewmate Vitals</legend>
+                    
+                    <div style="margin-bottom: 10px;">
+                        <label for="idNumber">Registration Number</label><br>
+                        <input type="text" name="idNumber" id="idNumber">
+                    </div>
+
+                    <div style="margin-bottom: 10px;">
+                        <label for="comments">Comments (Log Entry)</label><br>
+                        <textarea name="comments" id="comments" rows="4" cols="50"></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset style="border: 1px solid #DDD; margin-bottom: 10px;">
+                    <legend>Shift Assignment</legend>
+                    <p>Select your lab time:</p>
+                    <div>
+                        <input type="radio" name="lab" id="lab1" value="Lab101">
+                        <label for="lab1">830 TT</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="lab" id="lab2" value="Lab102">
+                        <label for="lab2">1030 TT</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="lab" id="lab3" value="Lab103">
+                        <label for="lab3">1430 WF</label>
+                    </div>
+                </fieldset>
+
+                <fieldset style="border: 1px solid #DDD; margin-bottom: 10px;">
+                    <legend>System Proficiencies</legend>
+
+                    <div style="margin-bottom: 10px;">
+                        <label for="app">Application</label><br>
+                        <select name="app" id="app">
+                            <option value="Word">Word</option>
+                            <option value="Excel">Excel</option>
+                            <option value="HTML">HTML</option>
+                            <option value="Pixel Graphics">Pixel Graphics</option>
+                            <option value="Social Media">Social Media</option>
+                            <option value="FileMaker">FileMaker</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <p>Operating Systems Used:</p>
+                        <input type="checkbox" name="mac" id="mac" value="Yes">
+                        <label for="mac">Macintosh</label>
+                        <br>
+                        <input type="checkbox" name="win" id="win" value="Yes">
+                        <label for="win">Windows</label>
+                        <br>
+                        <input type="checkbox" name="unix" id="unix" value="Yes">
+                        <label for="unix">Linux</label>
+                    </div>
+                </fieldset>
+                <br>
+                <button type="submit">EMERGENCY MEETING (Join Crew)</button>
+            </form>
+        </main>
+    </div>
+
+</body>
+</html>

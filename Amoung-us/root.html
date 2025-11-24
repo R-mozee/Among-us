@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMOUNG-US</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="page-container">
+
+
+        <header>
+            
+            <h1 style="text-align: left;">
+                <img src="images-5.jpeg" alt="A placeholder image with a task list" style="width:100px;height:auto;">
+                INNERSLOTH</h1>
+            <p>Ship ID: 23MEI10017</p>
+        </header>
+
+        <nav>
+            <a href="root.html" class="nav-link-active">Home[Cafeteria]</a>
+            <a href="username.html" class="nav-link">Logbook</a>
+            <a href="form.html" class="nav-link">Register</a>
+            <a href="extra.html" class="nav-link">Storage</a>
+            <a href="shop.html" class="nav-link">Shop</a>
+        </nav>
+
+        <main>
+            <div class="image-container">
+            <img src="among-us-pictures-ufr7q747qruthqf6.jpg" alt="A placeholder image with a task list" style="width:700px; height:auto;">
+            </div>
+
+            <header>
+            <h1><br>Amoung-us is a party game of<br> teamwork and beterayal.<br>
+                <span ><br>Crewmates work together to complete tasks before one or more Impostors can kill everyone aboard.</span>
+            </h1>
+
+                
+            </header>
+
+            <section>
+                
+
+
+    <h2>Ship's Log Links</h2>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Access Planetary Scans (Google)</a></li>
+        <br>
+        <li><a href="https://www.wikipedia.org" target="_blank">Read Crew Manual (Wikipedia)</a></li>
+        <br>
+
+        <button id="reportButton" style="height: 50px; width: auto; color: white; background-color: #E63946; " onclick="alert(`🚨 Emergency meeting called! A crewmate is acting sus!`);">
+            <h2 >Report Button </h2>
+        </button>
+    </ul>
+</section>
+
+<script src="main.js"></script>
+
+            <section>
+                <h2>Crewmate Tasks</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Task</th>
+                            <th>Location</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Fix Wires</td>
+                            <td>Electrical</td>
+                            <td>Pending</td>
+                        </tr>
+                        <tr>
+                            <td>Empty Chute</td>
+                            <td>Storage</td>
+                            <td>Complete</td>
+                        </tr>
+                        <tr>
+                            <td>Empty trash</td>
+                            <td>Storage</td>
+                            <td>Incomplete</td>
+                        </tr>
+                        <tr>
+                            <td>Upload doc</td>
+                            <td>Navigation</td>
+                            <td>pending</td>
+                        </tr>
+                        <tr>
+                            <td>Spaceship</td>
+                            <td>Navigation</td>
+                            <td>Complete</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                </br>
+                <div class="calculator">
+                    <h3>Crewmate Calculator</h3>
+                    <input type="number" id="num1" placeholder="Number 1">
+                    <input type="number" id="num2" placeholder="Number 2">
+
+                    <div class="buttons">
+                        <button onclick="calculate('+')">+</button>
+                        <button onclick="calculate('-')">−</button>
+                        <button onclick="calculate('*')">×</button>
+                        <button onclick="calculate('/')">÷</button>
+                    </div>
+                    <p id="result"></p>
+
+                    <script src="message.js"></script>
+                    <script src="web.js"></script>
+                </div>
+
+                <script src="web.js"></script>
+                </ul>
+    </div>
+    </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>2025 Among-us — Ship Status: <span style="color:#E63946;">O2 stable</span> 
+        </p>
+    </footer>
+
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
